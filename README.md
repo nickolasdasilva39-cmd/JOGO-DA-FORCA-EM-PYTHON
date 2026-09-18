@@ -1,46 +1,27 @@
-# JOGO-DA-FORCA-EM-PYTHON
-Um jogo clássico da forca (Hangman) desenvolvido inteiramente em Python para ser jogado diretamente no terminal.
+# Jogo da Forca em Python
 
-🎮 Como funciona
+## Descrição
+Um jogo clássico da forca executado diretamente no terminal. O jogador deve adivinhar a palavra secreta letra por letra antes de atingir o limite máximo de erros. O projeto serve como uma aplicação prática de lógica de programação em Python e deve ser utilizado para entretenimento rápido ou como objeto de estudo de algoritmos básicos.
 
-O jogo escolhe aleatoriamente uma palavra secreta de um banco de palavras pré-definido. O jogador tem até 6 tentativas para adivinhar a palavra, digitando uma letra por vez. A cada erro, uma parte do boneco é desenhada na forca.
+## Público-alvo
+Estudantes de ciência da computação, desenvolvedores iniciantes e entusiastas de jogos de lógica e terminal.
 
-Funcionalidades
+## Funcionalidades
+- Sorteio aleatório de uma palavra secreta a partir de um banco de palavras.
+- Renderização visual do estado da forca e do boneco em formato texto (ASCII art).
+- Validação de entrada do usuário (rejeita números, caracteres especiais, múltiplos caracteres e letras já tentadas).
+- Acompanhamento em tempo real das letras descobertas e das letras erradas.
+- Condições de vitória e derrota baseadas no limite de 6 tentativas.
 
-Interface limpa baseada em texto (ASCII Art).
+## Tecnologias utilizadas
+- **Python 3:** Linguagem principal utilizada no desenvolvimento de toda a lógica.
+- **Módulo `random` (Nativo do Python):** Utilizado para a seleção aleatória das palavras do jogo.
 
-Validação de entrada (evita que o jogador digite números ou mais de uma letra).
-
-Histórico de letras já tentadas para facilitar o jogo.
-
-🚀 Como jogar no seu computador
-
-Pré-requisitos
-
-Você precisa ter o Python 3 instalado no seu computador. Você pode baixar em python.org.
-
-Passos para executar
-
-Clone este repositório ou baixe o arquivo forca.py:
-
-git clone https://github.com/SEU-USUARIO/jogo-da-forca-python.git
-
-
-Abra o terminal (ou prompt de comando) e navegue até a pasta do jogo.
-
-Execute o script com o comando:
-
-python forca.py
+## Requisitos técnicos para utilização
+- Computador com sistema operacional Windows, macOS ou Linux.
+- [Python 3.x](https://www.python.org/downloads/) instalado no sistema.
+- Um terminal de linha de comando (Prompt de Comando, PowerShell, ou terminal do Linux/Mac).
+- (Opcional) Git instalado para clonar o repositório com o comando:
+  `git clone https://github.com/nickolasdasilva39-cmd/NOME-DO-REPOSITORIO.git`
 
 
-(Dependendo do seu sistema, pode ser necessário usar python3 forca.py)
-
-Divirta-se tentando não ser enforcado! 💀
-
-🛠️ Tecnologias Utilizadas
-
-Python 3
-
-Biblioteca padrão random
-
-Projeto criado para fins de estudo e diversão.
